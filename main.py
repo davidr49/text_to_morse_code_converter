@@ -28,7 +28,7 @@ programme_on = True
 
 while programme_on:
     translate()
-    repeat = input('Would you like to translate another message? Type "yes" or "no"')
+    repeat = input('Would you like to translate another message? Type "yes" or "no": ').lower()
     if repeat == 'no':
         print('Thanks for using the Morse Code Converter. Have a nice day!')
         programme_on = False
